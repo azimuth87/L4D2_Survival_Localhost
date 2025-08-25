@@ -1,0 +1,113 @@
+updated SI_requirements.cfg to reflect following counts
+	https://steamcommunity.com/groups/L4DSurvivalGroup/discussions/4/3271309684516953266/
+
+Keeping this here for an easy way to see if the minimum SI requirement gets updated.
+
+Steps:
+	* Navigate to this page (within steam for the pasting format to stay correct):
+		https://steamcommunity.com/groups/L4DSurvivalGroup/discussions/4/1867245736870120213/
+	
+	* If OP edited the post after last time checked, run a diff check on the current version vs the one saved below
+		https://www.diffchecker.com/
+		
+	* If there's an updated min SI requirement, be sure to update:
+		1) "data/SI_requirements.cfg" config file within the server config
+		2) Update this file too so we can continue to use it
+		
+	* Push the changes to the GM github repo so SI_req_announcer.smx continues to work correctly.
+	
+---------------------------------------------------------------------------------------------
+Table as of Jan 30, 2022 :
+
+Map	Revised
+Gun Shop	10
+Mall Atrium	9
+Riverbank	9
+Bedlam/Underground	9
+Port The Passing	8
+Motel	9
+Stadium Gate	9
+Concert	10
+Gator Village	10
+Shanty Town	8
+Plantation	7
+Burger Tank	11
+Sugar Mill	8
+Cane Field	10
+Waterfront	7
+Bus Depot	11
+Cemetery	9
+Float	10
+Bridge P	9
+Traincar	9
+Barge	7
+Port The Sacrifice	7
+Generator Room	12
+Gas Station	9
+Hospital	14
+Rooftop	9
+Bridge CC	10
+Truck Depot	14
+Drains	15
+Church	10
+Street	10
+Boathouse	10
+Crane	9
+Construction Site	11
+Terminal	12
+Runway	8
+Warehouse	8
+Bridge BH	9
+Farmhouse	12
+Junkyard CS	8
+Waterworks	10
+Junkyard LS	7
+Lighthouse	8
+
+---------------------------------------------------------------------------------------------
+Table as of Aug 17, 2022 :
+
+Map	Revised
+Gun Shop	12
+Mall Atrium	11
+Riverbank	11
+Bedlam/Underground	9
+Port The Passing	11
+Motel	11
+Stadium Gate	9
+Concert	12
+Gator Village	13
+Shanty Town	9
+Plantation	9
+Burger Tank	13
+Sugar Mill	10
+Cane Field	12
+Waterfront	7
+Bus Depot	12
+Cemetery	9
+Float	11
+Bridge P	10
+Traincar	10
+Barge	8
+Port The Sacrifice	9
+Generator Room	14
+Gas Station	9
+Hospital	16
+Rooftop	11
+Bridge CC	12
+Truck Depot	15
+Drains	17
+Church	12
+Street	10
+Boathouse	10
+Crane	11
+Construction Site	13
+Terminal	14
+Runway	10
+Warehouse	9
+Bridge BH	9
+Farmhouse	13
+Junkyard CS	8
+Waterworks	12
+Junkyard LS	6
+Lighthouse	9
