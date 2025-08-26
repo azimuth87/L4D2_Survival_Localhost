@@ -14,10 +14,17 @@ When not in use you will need to remove -insecure from your launch parameters to
 You will also need to add your steam ID to the admins.cfg to have admin privileges.
 
 Available features:
+
 !setup
+
 !gasmenu
+
 !l
+
 !slaysafe
+
 !nb
+
 !stats
+
 SourceTV Demo Recording
