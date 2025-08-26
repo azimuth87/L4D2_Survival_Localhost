@@ -10,3 +10,14 @@ Right click on Left 4 Dead 2 in your steam library->properties->launch options a
 -insecure +tv_enable 1
 ```
 When not in use you will need to remove -insecure from your launch parameters to be able to connect to normal servers.
+
+You will also need to add your steam ID to the admins.cfg to have admin privileges.
+
+Available features:
+!setup
+!gasmenu
+!l
+!slaysafe
+!nb
+!stats
+SourceTV Demo Recording
