@@ -15,10 +15,10 @@ You will also need to add your steam ID to the admins.cfg to have admin privileg
 
 Available features:
 
-!setup
-!gasmenu
-!l
-!slaysafe
-!nb
-!stats
+!setup 
+!gasmenu 
+!l 
+!slaysafe 
+!nb 
+!stats 
 SourceTV Demo Recording
