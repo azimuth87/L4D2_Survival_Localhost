@@ -2,6 +2,8 @@
 
 This is a sourcemod server package with plugins for localhosting in Survival Mode for L4D2.
 
+[Installation Guide](https://www.youtube.com/watch?v=jwlY4WxHrmc)  
+
 Place files in ./steam/steamapps/common/left 4 dead 2/left4dead2/
 
 Right click on Left 4 Dead 2 in your steam library->properties->launch options and copy below into the launch options.
