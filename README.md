@@ -1,6 +1,6 @@
 # L4D2_Survival_Localhost
 
-This is a sourcemod server package with plugins for localhosting in Survival Mode for L4D2.
+This is a sourcemod server package with plugins for localhosting (Windows Only) in Survival Mode for L4D2.
 
 [Installation Guide](https://www.youtube.com/watch?v=jwlY4WxHrmc)  
 
