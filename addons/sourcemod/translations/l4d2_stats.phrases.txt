@@ -1,0 +1,511 @@
+"Phrases"
+{
+	"Tank dmg report is On"
+	{
+		"en"	"[SM] Tank damage report toggled {green}on{default}\n[SM] This change only affects you and will stay in affect after reconnecting."
+		"zho"   "[SM] 坦克傷害統計{green}已開啟{default}.\n[SM] 此功能只會影響你的坦克傷害統計並且會一直生效."
+		"chi"   "[SM] 坦克伤害统计{green}已开启{default}。\n[SM]此功能只会影响你的坦克伤害统计并且会一直生效。"
+	}
+	
+	"Tank dmg report is Off"
+	{
+		"en"	"[SM] Tank damage report toggled {green}off{default}\n[SM] This change only affects you and will stay in affect after reconnecting."
+		"zho"   "[SM] 坦克傷害統計{green}已關閉{default}.\n[SM] 此功能只會影響你的坦克傷害統計並且會一直生效."
+		"chi"   "[SM] 坦克伤害统计{green}已关闭{default}。\n[SM]此功能只会影响你的坦克伤害统计并且会一直生效。"
+	}
+	
+	"== Accuracy =="
+	{
+		"en"	"== Accuracy =="
+		"zho"   "== 命中率 =="
+		"chi"   "== 命中率 =="
+	}
+
+	"Accuracy"
+	{
+		"#format"		"{1:i},{2:s},{3:i},{4:i}"
+		"en"			"Accuracy: {green}{1}{2}{default} [{green}{3}{default} Shots - {green}{4}{default} Landed]"
+		"zho"  			"命中率: {green}{1}{2}{default} [{green}{3}{default} 射擊次數 - {green}{4}{default} 命中]"
+		"chi"   		"命中率: {green}{1}{2}{default} [{green}{3}{default} 射击次数 - {green}{4}{default} 命中]"
+	}
+
+	"Headshots"
+	{
+		"#format"		"{1:i},{2:s},{3:i}"
+		"en"			"Headshots: {green}{1}{2}{default} [{green}{3}{default} Headshots]"
+		"zho"   		"爆頭: {green}{1}{2}{default} [{green}{3}{default} 爆頭]"
+		"chi"   		"爆头: {green}{1}{2}{default} [{green}{3}{default} 爆头]"
+	}
+
+	"SI Headshots"
+	{
+		"#format"		"{1:i},{2:s},{3:i},{4:i}"
+		"en"			"SI Headshots: {green}{1}{2}{default} [{green}{3}{default} Headshots - {green}{4}{default} Hits]"
+		"zho"   		"特感爆頭: {green}{1}{2}{default} [{green}{3}{default} 爆頭 - {green}{4}{default} 命中]"
+		"chi"   		"特感爆头: {green}{1}{2}{default} [{green}{3}{default} 爆头 - {green}{4}{default} 命中]"
+	}
+
+	"Hit / Minute"
+	{
+		"#format"		"{1:.2f}"
+		"en"			"Hit / Minute: {green}{1}"
+		"zho"   		"每分鐘平均命中次數: {green}{1}"
+		"chi"   		"每分钟平均命中次数: {green}{1}"
+	}
+
+	"see the output in your console"
+	{
+		"en"			"[SM] see the output in your {green}console{default}."
+		"zho"   		"[SM] 請查看{green}控制台{default}."
+		"chi"   		"[SM] 请查看{green}控制台{default}."
+	}
+
+	"Stats auto display turned on"
+	{
+		"en"			"{olive}Stats auto display turned on"
+		"zho"   		"{olive}全體擊殺統計自動顯示已開啟"
+		"chi"   		"{olive}全体击杀统计自动显示已开启"
+	}
+
+	"Stats auto display turned off"
+	{
+		"en"			"{olive}Stats auto display turned off"
+		"zho"   		"{olive}全體擊殺統計自動顯示已關閉"
+		"chi"   		"{olive}全体击杀统计自动显示已关闭"
+	}
+
+	"Effective Stats:"
+	{
+		"en"			"Effective Stats:"
+		"zho"   		"玩家貢獻度:"
+		"chi"   		"玩家贡献度:"
+	}
+
+	"SI Counts"
+	{
+		"#format"		"{1:f},{2:i},{3:i}"
+		"en"			"SI Counts [{1} SI/min - {2} SI - {3} Tanks]:"
+		"zho"   		"全體特感擊殺數量 [{1} (每分鐘) - {2} 特感 - {3} 坦克]:"
+		"chi"   		"全体特感击杀数量 [{1} (每分钟) - {2} 特感 - {3} 坦克]:"
+	}
+
+	"Hunters"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Hunters"
+	}
+
+	"Smokers"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Smokers"
+	}
+
+	"Boomers"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Boomers"
+	}
+
+	"Chargers"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Chargers"
+	}
+
+	"Jockeys"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Jockeys"
+	}
+
+	"Spitters"
+	{
+		"#format"		"{1:i}"
+		"en"			"{olive}{1}{default} Spitters"
+	}
+
+	"Individual Damage Report"
+	{
+		"#format"		"{1:f},{2:i}"
+		"en"			"Individual Damage Report [{1} SI/min - {2} killed]:"
+		"zho"   		"個人特感擊殺數量 [{1} (每分鐘) - {2} 已擊殺]:"
+		"chi"   		"个人特感击杀数量 [{1} (每分钟) - {2} 已击杀]:"
+	}
+
+	"Damage report"
+	{
+		"#format"		"{1:f},{2:i}"
+		"en"			"Damage Report [{1} SI/min - {2} killed]:"
+	}
+
+	"unknown_0"
+	{
+		"#format"		"{1:N},{2:i},{3:s}"
+		"en"			"{green}{1}{default}: {olive}{2}{3}{default}"
+	}
+
+	"unknown_1"
+	{
+		"#format"		"{1:N},{2:i},{3:s},{4:i},{5:s},{6:i},{7:s}"
+		"en"			"{green}{1}{default}: {olive}{2}{3}{default} (S), {olive}{4}{5}{default} (T), {olive}{6}{7}{default} (C)"
+	}
+
+	"Damage dealt to"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"[SM] Damage dealt to {1}{2}"
+		"zho"   		"[SM] 對 {1} 造成的傷害{2}"
+		"chi"   		"[SM] 对 {1} 造成的伤害{2}"
+	}
+
+	"min"
+	{
+		"#format"		"{1:.2f}"
+		"en"			" [{green}{1} {default}min.]"
+		"zho"   		" [{green}{1} {default}分鐘.]"
+		"chi"   		" [{green}{1} {default}分钟.]"
+	}
+	
+	"sec"
+	{
+		"#format"		"{1:i}"
+		"en"			" [{green}{1} {default}sec.]"
+		"zho"   		" [{green}{1} {default}秒.]"
+		"chi"   		" [{green}{1} {default}秒.]"
+	}
+
+	"unknown_2"
+	{
+		"#format"		"{1:i},{2:i},{3:s},{4:N}"
+		"en"			"{olive}{1}{default} [{green}{2}{3}%{default}]: {lightgreen}{4}"
+	}
+
+	"console_Survival Round Stats"
+	{
+		"en"			"│                                      Survival Round Stats                                                     │"
+		"zho"   		"│                                                                                                                       生存模式回合統計數據                                                                                                                                         │"
+		"chi"  			"│                                                                                                                       生存模式回合统计数据                                                                                                                                         │"
+	}
+
+	"unknown_3"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} {2}"
+	}
+
+	"console_Pre-round"
+	{
+		"en"			"Pre-round..."
+		"zho"   		"回合尚未開始..."
+		"chi"   		"回合尚未开始..."
+	}
+	
+	"console_In Progress"
+	{
+		"en"			"In Progress:"
+		"zho"   		"回合進行中:"
+		"chi"   		"回合进行中:"
+	}
+	
+	"console_Round Time"
+	{
+		"en"			"Round Time:"
+		"zho"   		"回合總時間:"
+		"chi"   		"回合总时间:"
+	}
+
+	"SI Rates"
+	{
+		"#format"		"{1:f}"
+		"en"			"SI Rates:     {1} SI/min"
+		"zho"   		"特感平均擊殺數量:     {1} (每分鐘)"
+		"chi"   		"特感平均击杀数量:     {1} (每分钟)"
+	}
+
+	"console_Totals"
+	{
+		"en"			"┌────────── Totals ────────────┐"
+		"zho"   		"┌────────── 特感擊殺統計 ──────────┐"
+		"chi"   		"┌────────── 特感击杀统计 ──────────┐"
+	}
+
+	"console_Type_Kills_Rate"
+	{
+		"en"			"│ Type    │  Kills  │   Rate   │"
+		"zho"   		"│ 種類       │ 擊殺數量  │ 每分鐘平均擊殺  │"
+		"chi"   		"│ 种类       │ 击杀数量  │ 每分钟平均击杀  │"
+	}
+
+	"console_Tank"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Tank    │ {1}  │ {2}  │"
+	}
+
+	"console_Common"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Common    │ {1}  │ {2}  │"
+	}
+
+	"console_Hunter"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Hunter    │ {1}  │ {2}  │"
+	}
+
+	"console_Smoker"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Smoker    │ {1}  │ {2}  │"
+	}
+
+	"console_Boomer"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Boomer    │ {1}  │ {2}  │"
+	}
+
+	"console_Charger"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Charger    │ {1}  │ {2}  │"
+	}
+
+	"console_Jockey"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Jockey    │ {1}  │ {2}  │"
+	}
+
+	"console_Spitter"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"│ Spitter    │ {1}  │ {2}  │"
+	}
+
+	"console_Individual Stats"
+	{
+		"en"			"┌───────────────────────────────────── Individual Stats ────────────────────────────────────────────────────────┐"
+		"zho"   		"┌───────────────────────────────────── 個人特感擊殺統計 ────────────────────────────────────────────────────────┐"
+		"chi"   		"┌───────────────────────────────────── 个人特感击杀统计 ────────────────────────────────────────────────────────┐"
+	}
+
+	"console_Player Stats"
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"en"			"│ Player          │ Tank {1} │ SI {2} │ Common {3} ││ Hunter │ Smoker │ Boomer │ Charger │ Jockey │ Spitter │ Common │"
+		"zho"   		"│ 玩家          │ Tank {1} │ SI {2} │ Common {3} ││ Hunter │ Smoker │ Boomer │ Charger │ Jockey │ Spitter │ Common │"
+		"chi"   		"│ 玩家          │ Tank {1} │ SI {2} │ Common {3} ││ Hunter │ Smoker │ Boomer │ Charger │ Jockey │ Spitter │ Common │"
+	}
+
+	"console_Item Usage"
+	{
+		"en"			"┌────────────────────────────────── Item Usage ────────────────────────────────┐"
+		"zho"   		"┌────────────────────────────────── 物品使用數量 ────────────────────────────────┐"
+		"chi"   		"┌────────────────────────────────── 物品使用数量 ────────────────────────────────┐"
+	}
+
+	"console_Item Usage 2"
+	{
+		"en"			"│                 │ Medkits │ Defibs │ Pills │ Shot │ Pipes │ Molotovs │ Biles │"
+		"zho"   		"│                 │ 急救包 │ 電擊器 │ 藥 │ 針 │ 管雷 │ 汽油彈 │ 膽汁 │"
+		"chi"   		"│ 		    │ 急救包 │ 电击器 │ 药 │ 针 │ 管雷 │ 汽油弹 │ 胆汁 │" 
+	}
+
+	"console_Friendly Fire"
+	{
+		"en"			"┌───────────────────────────────────── Friendly Fire ──────────────────────────────────────┐"
+		"zho"   		"┌───────────────────────────────────── 友方傷害 ──────────────────────────────────────┐"
+		"chi"   		"┌───────────────────────────────────── 友方伤害 ──────────────────────────────────────┐"
+	}
+
+	"console_Accuracy"
+	{
+		"en"			"┌────────────────────────────────── Accuracy ─────────────────────┐"
+		"zho"   		"┌────────────────────────────────── 命中率 ─────────────────────┐"
+		"chi"   		"┌────────────────────────────────── 命中率 ─────────────────────┐"
+	}
+
+	"console_Accuracy_2"
+	{
+		"en"			"│                 │ Accuracy │ Headshot │ SI Headshot │ Hit / min │"
+		"zho"   		"│                 │ 命中率 │ 爆頭 │ 特感爆頭 │ 每分鐘平均命中 │"
+		"chi"   		"│ 		   │ 命中率 │ 爆头 │ 特感爆头 │ 每分钟平均命中 │"
+	}
+
+	"Round Time"
+	{
+		"#format"		"{1:s}"
+		"en"			"{green}Round Time{default}: {1}\n "
+	}
+
+	"kill stats count"
+	{
+		"en"			"{green}kill stats{default}: count (Kill/min)"
+	}
+
+	"SI"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}SI{default}: {1} ({2})"
+	}
+
+	"Common"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Common{default}: {1} ({2})"
+	}
+
+	"Tank"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Tank{default}: {1} ({2})"
+	}
+
+	"Hunter"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Hunter{default}: {1} ({2})"
+	}
+
+	"Smoker"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Smoker{default}: {1} ({2})"
+	}
+
+	"Boomer"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Boomer{default}: {1} ({2})"
+	}
+
+	"Charger"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Charger{default}: {1} ({2})"
+	}
+
+	"Jockey"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Jockey{default}: {1} ({2})"
+	}
+
+	"Spitter"
+	{
+		"#format"		"{1:d},{2:f}"
+		"en"			"{green}Spitter{default}: {1} ({2})"
+	}
+
+	"kill stats Accuracy"
+	{
+		"#format"		"{1:N}"
+		"en"			"{lightgreen}{1}{default} kill stats / Accuracy:"
+	}
+
+	"SI Accuracy"
+	{
+		"#format"		"{1:d},{2:d},{3:s},{4:d},{5:d},{6:s},{7:d},{8:d},{9:s},{10:i},{11:s}"
+		"en"			"{green}SI{default}: {1}({2}{3}), {green}Tank{default}: {4}({5}{6}), {green}CI{default}: {7}({8}{9}), {green}estats{default}: {10}{11}"
+	}
+
+	"H Accuracy"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"			"{green}Hunter{default}: {1}, {green}Smoker{default}: {2}, {green}Boomer{default}: {3}"
+	}
+
+	"CH Accuracy"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"			"{green}Charger{default}: {1}, {green}Jockey{default}: {2}, {green}Spitter{default}: {3}"
+	}
+
+	"Accuracy 2"
+	{
+		"#format"		"{1:.5f},{2:s}"
+		"en"			"{green}Accuracy{default}: {1}{2}"
+	}
+
+	"Headshot 2"
+	{
+		"#format"		"{1:.5f},{2:s}"
+		"en"			"{green}Headshot{default}: {1}{2}"
+	}
+
+	"SI Headshot 2"
+	{
+		"#format"		"{1:.5f},{2:s}"
+		"en"			"{green}SI Headshot{default}: {1}{2}"
+	}
+
+	"Hit / Minute 2"
+	{
+		"#format"		"{1:.5f}"
+		"en"			"{green}Hit / Minute{default}: {1}\n "
+	}
+
+	"Item usage:"
+	{
+		"#format"		"{1:N}"
+		"en"			"{lightgreen}{1}{default} Item usage:"
+	}
+
+	"Item usage 2"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"			"{green}MedKit{default}: {1}, {green}Pill{default}: {2}, {green}AdShot{default}: {3}"
+	}
+
+	"Item usage 3"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"{green}Defibbed{default}: {1}, {green}Defib Used{default}: {2}"
+	}
+
+	"Item usage 4"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"en"			"{green}Pipe{default}: {1}, {green}Molly{default}: {2}, {green}Bile{default}: {3}\n "
+	}
+
+	"FF stats"
+	{
+		"#format"		"{1:N}"
+		"en"			"{lightgreen}{1}{default} FF stats:"
+	}
+
+	"FF stats 2"
+	{
+		"#format"		"{1:i},{2:N}"
+		"en"			"Done {green}{1}{default} FF to {olive}{2}"
+	}
+
+	"FF stats 3"
+	{
+		"#format"		"{1:i}"
+		"en"			"Total FF Dealt: {1}"
+	}
+
+	"FF stats 4"
+	{
+		"#format"		"{1:N}"
+		"en"			"{lightgreen}{1}{default} received FF:"
+	}
+
+	"FF stats 5"
+	{
+		"#format"		"{1:i},{2:N}"
+		"en"			"Taken {green}{1}{default} FF from {olive}{2}"
+	}
+
+	"FF stats 6"
+	{
+		"#format"		"{1:i}"
+		"en"			"Total FF taken: {1}\n "
+	}
+}
+
